@@ -1,0 +1,366 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background: #f0f2f5;
+
+}
+
+
+
+
+
+
+
+
+.left {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    /* background-color: aqua; */
+
+    left: 150px;
+    top: 180px;
+
+    font-family: 'Golos Text', sans-serif;
+    font-size: 24px;
+
+}
+
+.left img {
+    margin-bottom: -20px;
+}
+
+.left p {
+    margin-left: 37px;
+}
+
+/* ################################################################################################# RIGHT */
+.right {
+    height: 530px;
+    width: 432px;
+    position: absolute;
+    /* background-color: beige; */
+    background-color: #fff;
+    right: 120px;
+    top: 50px;
+    border-radius: 6px;
+    /* box-shadow: 5px 5px black; */
+    box-shadow: 0 1px 5px 0px rgba(0, 0, 0, .1);
+
+}
+
+/* ################           ONE */
+
+.one {
+    margin-left: 18px;
+    font-family: 'Golos Text', sans-serif;
+
+}
+
+.one h2 {
+    font-size: 32px;
+}
+
+.right-hori-line {
+    width: 400px;
+    margin-left: 16px;
+    /* color: rgba(0, 0, 0, 0.4); */
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.one p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    /* font-weight: 100; */
+    margin-bottom: 12px;
+
+}
+
+
+
+/* #################################### TWO */
+
+
+/* ########### FIRST NAME AND LAST NAME */
+
+.firstname,
+.surname {
+    margin: 10px 0px;
+    margin-left: 18px;
+    width: 190px;
+    padding: 11px;
+    text-align: left;
+    font-size: 16px;
+
+
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    border-radius: 5px;
+
+}
+
+/* .firstname[type="text"]:focus {
+    width: 100px;
+    transition: 0.5s;
+  } */
+
+
+
+
+
+
+/* ##########NUMER OR EMAIL ADDRES */
+
+.email {
+    margin: 10px 0px;
+    margin-left: 18px;
+    width: 398px;
+    padding: 11px;
+    text-align: left;
+    font-size: 16px;
+
+
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.password {
+    margin: 10px 0px;
+    margin-left: 18px;
+    width: 398px;
+    padding: 11px;
+    text-align: left;
+    font-size: 16px;
+
+
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    outline: none;
+    border-radius: 5px;
+
+}
+
+/* #################################### BIRTHDAY LABEL */
+
+.date-div {
+    margin-bottom: 10px;
+}
+
+.birthdate-label {
+    margin-left: 18px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    word-spacing: 1px;
+}
+
+#date {
+    margin-left: 18px;
+    width: 130px;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+
+
+
+}
+
+#month {
+    /* margin-left: 18px; */
+    width: 130px;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+
+
+}
+
+#year {
+    /* margin-left: 18px; */
+    width: 130px;
+    height: 36px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+
+    font-size: 16px;
+
+}
+
+/* ########################################################  GENDER LABEL */
+
+.gender-label {
+    margin-left: 18px;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+    word-spacing: 1px;
+}
+
+
+.gender-btn {
+    display: flex;
+    margin-left: 18px;
+}
+
+.gn {
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+
+    width: 130px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.gn input {
+    color: black;
+    margin-right: 3px;
+
+    /* margin-left: 55px; */
+}
+
+
+.f {
+    margin-left: 4px;
+}
+
+.c {
+    margin-left: 4px;
+}
+
+label {
+    margin-left: 3px;
+}
+
+.conditions {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    word-spacing: 1px;
+
+    margin-left: 18px;
+    margin-top: 8px;
+
+
+}
+
+.conditions a {
+    text-decoration: none;
+}
+
+.conditions a:hover {
+    text-decoration: underline;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+
+.btn {
+    width: 180px;
+    height: 36px;
+    /* font-size: 18px; */
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    /* height: 36px; */
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+    cursor: pointer;
+
+}
+
+
+/* ################################################################################    FOOTER */
+
+footer {
+
+    height: 150px;
+    background-color: #fff;
+    font-size: 12px;
+}
+
+/* ###################   f1 */
+.f1 {
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+}
+
+.f1 ul {
+    display: flex;
+    align-items: end;
+    margin-left: 100px;
+    
+    
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    color: #737373;
+    
+    text-decoration: none;
+    margin: 0px 6px;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+/* ###################   HORIZONTAL LINE */
+.foot-hor-line{
+    width: 1000px;
+    margin-left: 105px;
+    margin-top: 5px;
+}
+
+
+/* ####################    F2 */
+
+
+.f2 {
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+
+.f2 ul {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    
+    
+}
+
+.plus{
+    height: 18px;
+    width: 25px;
+}
+
+
